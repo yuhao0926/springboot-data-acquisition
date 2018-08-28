@@ -1,0 +1,1 @@
+[18:03:12:291] [ERROR] - org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevel(LoggingApplicationListener.java:317) - Cannot set level: .server.mapper=info for 'com.dc.acquisition.model'

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+ 
+<mapper namespace="com.dc.acquisition.dao.PeopleDao">  
+
+    <!-- insert People -->
+    <insert id = "insert" parameterType="com.dc.acquisition.model.People">
+        INSERT INTO people(person_id,first_name,last_name) VALUES(#{personId},#{firstName},#{lastName});
+    </insert>
+    
+    <!-- update People -->
+    <update id="update" parameterType="com.dc.acquisition.model.People">
+        UPDATE people SET first_name=#{firstName} , last_name = #{lastName} WHERE person_id=#{personId}
+    </update>
+    
+    <!-- find People -->
+    <select id="findAll" parameterType="int" resultType="com.dc.acquisition.model.People">
+        SELECT person_id,first_name,last_name FROM people
+    </select>
+    
+    <!-- delete People -->
+    <delete id="delete" parameterType="int">
+        DELETE  FROM people;
+    </delete>
+</mapper>

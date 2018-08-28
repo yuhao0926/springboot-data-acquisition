@@ -1,0 +1,97 @@
+[18:03:12:291] [ERROR] - org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevel(LoggingApplicationListener.java:317) - Cannot set level: .server.mapper=info for 'com.dc.acquisition.model'
+[18:03:12:302] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationEnvironmentPreparedEvent
+[18:03:12:390] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting DataAcquisitionApplication on yuhao-mbp.local with PID 4895 (/Users/yuhao/eclipse-workspace/data-acquisition/target/classes started by yuhao in /Users/yuhao/eclipse-workspace/data-acquisition)
+[18:03:12:391] [DEBUG] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:53) - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[18:03:12:391] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:662) - No active profile set, falling back to default profiles: default
+[18:03:12:420] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationPreparedEvent
+[18:03:12:846] [DEBUG] - org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:184) - Searching for mappers annotated with @Mapper
+[18:03:12:848] [DEBUG] - org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.registerBeanDefinitions(MybatisAutoConfiguration.java:196) - Using auto-configuration base package 'com.dc.acquisition'
+[18:03:12:851] [DEBUG] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:437) - Identified candidate component class: file [/Users/yuhao/eclipse-workspace/data-acquisition/target/classes/com/dc/acquisition/dao/PeopleDao.class]
+[18:03:12:852] [DEBUG] - org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:180) - Creating MapperFactoryBean with name 'peopleDao' and 'com.dc.acquisition.dao.PeopleDao' mapperInterface
+[18:03:12:852] [DEBUG] - org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:216) - Enabling autowire by type for MapperFactoryBean with name 'peopleDao'.
+[18:03:13:143] [INFO] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.postProcessBeanFactory(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48) - Post-processing PropertySource instances
+[18:03:13:204] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[18:03:13:204] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[18:03:13:204] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[18:03:13:205] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+[18:03:13:205] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+[18:03:13:206] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[18:03:13:206] [INFO] - com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter.makeEncryptable(EncryptablePropertySourceConverter.java:38) - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[18:03:13:575] [INFO] - com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver.lambda$null$2(DefaultLazyPropertyResolver.java:34) - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[18:03:13:576] [INFO] - com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector.lambda$null$2(DefaultLazyPropertyDetector.java:31) - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[18:03:13:948] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8888"]
+[18:03:13:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting service [Tomcat]
+[18:03:13:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.32
+[18:03:13:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yuhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[18:03:14:036] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+[18:03:14:137] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[18:03:14:196] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.lambda$null$2(DefaultLazyEncryptor.java:33) - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+[18:03:14:202] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+[18:03:14:202] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+[18:03:14:203] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+[18:03:14:203] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+[18:03:14:203] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+[18:03:14:204] [INFO] - com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor.getProperty(DefaultLazyEncryptor.java:58) - Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+[18:03:14:341] [DEBUG] - com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:495) - Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@764c12b6
+[18:03:14:421] [DEBUG] - org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:529) - Parsed mapper file: 'file [/Users/yuhao/eclipse-workspace/data-acquisition/target/classes/mapper/people.xml]'
+[18:03:14:467] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Using SLF4J as the default logging framework
+[18:03:14:470] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.eventLoopThreads: 8
+[18:03:14:510] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) - -Dio.netty.leakDetection.level: simple
+[18:03:14:510] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:81) - -Dio.netty.leakDetection.targetRecords: 4
+[18:03:14:517] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - Platform: MacOS
+[18:03:14:519] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noUnsafe: false
+[18:03:14:519] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Java version: 8
+[18:03:14:521] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - sun.misc.Unsafe.theUnsafe: available
+[18:03:14:522] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - sun.misc.Unsafe.copyMemory: available
+[18:03:14:523] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - java.nio.Buffer.address: available
+[18:03:14:524] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - direct buffer constructor: available
+[18:03:14:524] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.Bits.unaligned: available, true
+[18:03:14:525] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[18:03:14:525] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - java.nio.DirectByteBuffer.<init>(long, int): available
+[18:03:14:525] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - sun.misc.Unsafe: available
+[18:03:14:526] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.tmpdir: /var/folders/b_/dzm6zw8s7vzfk2szjdssqp680000gn/T (java.io.tmpdir)
+[18:03:14:526] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[18:03:14:527] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.noPreferDirect: false
+[18:03:14:528] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.maxDirectMemory: 3817865216 bytes
+[18:03:14:528] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[18:03:14:529] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - java.nio.ByteBuffer.cleaner(): available
+[18:03:14:529] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17143b3b
+[18:03:14:532] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - org.jctools-core.MpscChunkedArrayQueue: available
+[18:03:14:544] [DEBUG] - reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:213) - Using Slf4j logging framework
+[18:03:14:563] [DEBUG] - reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:213) - Starting UnsafeSupport init in Java 1.8
+[18:03:14:564] [DEBUG] - reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:213) - Unsafe is available
+[18:03:14:573] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:71) - LatencyUtils/HdrUtils are not available, metrics are disabled
+[18:03:14:631] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.numHeapArenas: 16
+[18:03:14:631] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.numDirectArenas: 16
+[18:03:14:631] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.pageSize: 8192
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.maxOrder: 11
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.chunkSize: 16777216
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.tinyCacheSize: 512
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.smallCacheSize: 256
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.normalCacheSize: 64
+[18:03:14:632] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[18:03:14:633] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.cacheTrimInterval: 8192
+[18:03:14:633] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.allocator.useCacheForAllThreads: true
+[18:03:14:637] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[18:03:14:637] [DEBUG] - io.netty.util.internal.logging.Slf4JLogger.debug(Slf4JLogger.java:76) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[18:03:15:188] [DEBUG] - org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$MapperScannerRegistrarNotFoundConfiguration.afterPropertiesSet(MybatisAutoConfiguration.java:234) - No org.mybatis.spring.mapper.MapperFactoryBean found.
+[18:03:15:428] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ContextRefreshedEvent
+[18:03:15:429] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ContextRefreshedEvent
+[18:03:15:430] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8888"]
+[18:03:15:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+[18:03:15:460] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletWebServerInitializedEvent
+[18:03:15:460] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletWebServerInitializedEvent
+[18:03:15:462] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started DataAcquisitionApplication in 3.346 seconds (JVM running for 4.35)
+[18:03:15:463] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationStartedEvent
+[18:03:15:463] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationStartedEvent
+[18:03:15:464] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationReadyEvent
+[18:03:15:464] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ApplicationReadyEvent
+[18:03:30:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[18:03:30:991] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:30:991] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:31:023] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:31:024] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:31:229] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:31:229] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ServletRequestHandledEvent
+[18:03:38:617] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ContextClosedEvent
+[18:03:38:617] [DEBUG] - com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor.onApplicationEvent(EnableEncryptablePropertiesBeanFactoryPostProcessor.java:61) - Application Event Raised: ContextClosedEvent
